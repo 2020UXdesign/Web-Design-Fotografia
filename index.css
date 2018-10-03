@@ -1,0 +1,127 @@
+*{
+   margin: 0;
+	 padding: 0;
+	}
+
+#wrapper {
+  width 100%;
+}
+
+
+
+#contenedor{
+  width: 45%;
+  height: 70%;
+  margin; 0.5em auto;
+  padding: 0.5em;
+  background-color: #00FFFF;
+}
+
+#header{
+height: 12%;
+background: #5b7989;
+border-radius: 0.3em;
+margin:1em;
+
+.slidein {
+  animation-name: slidein
+}
+
+.img {
+  width 85%;
+}
+
+@keyframes slidein {
+  from {
+    margin-top: 150% -5%;
+  }
+  to {
+    0% 60% 100%;
+  }
+}
+
+}
+
+#contenido{
+  height: 100%;
+  width: 100%;
+  background-color: #d5c75f;
+  border-radius: 1em;
+}
+
+#contenedor-Clara.jpg{
+  color-shadow: #82c3a6;
+  border: 2px;
+  display: right;
+  margin-right: auto;
+    transition: all 1s ease-in-out;
+  }
+.Clara.jpg: hover{
+        transition: translate(5px, 20px);
+  }
+
+div.clara img{
+  float: right;
+}
+
+#contenedor-Playa.JPG{
+  color-shadow: #82c3a6;
+  border: 2px;
+  display: block;
+  margin-right: auto;
+  .transform: rotate(-10deg);
+  }
+
+
+.flex-contenido{
+  display: flex;
+flex-direction: column;
+}
+
+#Footer{
+  height: 30%;
+  width: 60%;
+  background:  #C6d5c5;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  margin: 0.4em;
+}
+
+.container-footer-all{
+  width 80%;
+  max-width: 1200px;
+  justify-content: space-between;
+  display: flex;
+  padding: 20px;
+  margin: auto;
+}
+
+.container-body{
+  display: flex;
+  justify-content: space-between;
+}
+
+.column1{
+  max-width: 400px;
+}
+
+.column2{
+  font-size: 22px;
+}
+
+.row{
+  margin-top: 20px;
+  display: flex;
+}
+
+.column3{
+  max-width: 400px;
+}
+
+.column3 h4{
+  font-size: 22px;
+}
+
+.row2{
+  margin-top: 20px;
+}
